@@ -22,6 +22,7 @@
 body{
     background-color: var(--body_background);
     font-family: "Noto Sans", sans-serif;
+    overflow-x: hidden;
 }
 header
 {
@@ -111,6 +112,7 @@ nav ul li:hover .submenu
     position: absolute;
     width: max-content;
     z-index: 2;
+    background-color: var(--body_background);
     border: 1px solid #ccc;
     border-radius: 8px;
     top: 100%;
@@ -214,7 +216,7 @@ main .container .tips li
     box-shadow: var(--button-shadows)
 }
 /*###############################Main#############################*/
-.about
+.about, .services
 {
     color: white;
     display: flex;
@@ -265,6 +267,24 @@ main .container .tips li
     border: 2px solid white;
 }
 
+.services{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.services .container{
+    width:80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.services .container .content{
+    background-color: red;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
 footer
 {
     height: 500px;
