@@ -9,6 +9,8 @@
     /*Colors variabls*/
     --prymary-blue : #4ca9df;
     --secondary-blue: #292e91;
+    --body_background:black;
+    --dark:#1B1B1B;
     /*end*/
 
     /*Box shadows variables*/
@@ -18,7 +20,7 @@
     --buttons-gradient : linear-gradient(45deg, #4ca9df,90%, #292e9113);
 }
 body{
-    background-color: black;
+    background-color: var(--body_background);
     font-family: "Noto Sans", sans-serif;
 }
 header
@@ -212,3 +214,58 @@ main .container .tips li
     box-shadow: var(--button-shadows)
 }
 /*###############################Main#############################*/
+.about
+{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.about .container{
+    width: 80%;
+    height: 300px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.about .container .info
+{
+    width: 40%;
+}
+.info h3{
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+.about .container .content
+{
+    width: 50%;
+    font-size:16px;
+}
+.about .container .social
+{
+    display: flex;
+    margin-top: 10px;
+}
+.about .container .social .imgbox{
+    width: 50px;
+    background-color: var(--prymary-blue);
+    box-shadow:var(--button-shadows) ;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right:10px;
+    border-radius: 7px;
+}
+
+.about .container .social .imgbox:hover{
+    transition: .2s;
+    background-color: var(--body_background);
+    box-shadow:none;
+    border: 2px solid white;
+}
+
+footer
+{
+    height: 500px;
+}
