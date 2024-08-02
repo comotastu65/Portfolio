@@ -4,8 +4,22 @@
     padding: 0;
     box-sizing: border-box;
 }
+:root
+{
+    /*Colors variabls*/
+    --prymary-blue : #4ca9df;
+    --secondary-blue: #292e91;
+    /*end*/
+
+    /*Box shadows variables*/
+    --button-shadows:#292e91 0px 0.25rem 0.25rem 0.125rem, #4ca9df 0px 0.375rem 0.75rem -0.125rem;
+
+    /*Gradient variables*/
+    --buttons-gradient : linear-gradient(45deg, #4ca9df,90%, #292e9113);
+}
 body{
     background-color: black;
+    font-family: "Noto Sans", sans-serif;
 }
 header
 {
@@ -105,22 +119,21 @@ nav ul li:hover .submenu
     right: 0;
     width: 160px;
     font-size: 16px;
-    background-color: #7169E5;
+    background-color: #4ca9df;
     font-weight: 700;
     color: white;
     height: 40px;
     padding: 7px 16px;
     outline: none;
     border-radius: 7px;
-    box-shadow: rgba(253, 86, 49, 0.1) 0px 0.25rem 0.25rem 0.125rem, #7169E5 0px 0.375rem 0.75rem -0.125rem;
+    box-shadow: var(--button-shadows);
     border: none;
 }
 .login:hover
 {
     transition: .5s;
-    box-shadow: rgba(253, 86, 49, 0.1) 0px 0.25rem 0.25rem 0.125rem, #7169E5 0px 0.375rem 0.75rem -0.125rem;
     box-shadow: none;
-    background-image: linear-gradient(45deg, #7169E5, #8f8bb6);
+    background-image: var(--buttons-gradient);
 }
 .login i
 {
@@ -190,12 +203,12 @@ main .container .tips li
 
 .texto a
 {
-    background-color: #7169E5;
     color: #fff;
     padding: 12px 20px;
     border-radius: 7px;
     text-decoration: none;
     font-weight: 600;
-    box-shadow: rgba(253, 86, 49, 0.1) 0px 0.25rem 0.25rem 0.125rem, #7169E5 0px 0.375rem 0.75rem -0.125rem;
+    background-color: var(--prymary-blue);
+    box-shadow: var(--button-shadows)
 }
 /*###############################Main#############################*/

@@ -1,5 +1,6 @@
 Welcome to My Portfolio
-Hello! I'm Josué, a passionate developer with a keen interest in creating efficient and innovative solutions. I specialize in both frontend and backend web development, as well as desktop application development. My goal is to bring ideas to life through clean, effective, and engaging digital experiences.
+
+Hello! I'm Josué Cassiangulo, a passionate developer with a keen interest in creating efficient and innovative solutions. I specialize in both frontend and backend web development, as well as desktop application development. My goal is to bring ideas to life through clean, effective, and engaging digital experiences.
 
 About Me
 I'm a programming enthusiast dedicated to learning and growing in the tech industry. With experience in various programming languages and technologies, I aim to craft seamless and user-friendly applications. Whether it's designing a responsive website or developing a robust backend system, I approach each project with creativity and precision.
