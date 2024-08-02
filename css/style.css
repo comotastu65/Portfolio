@@ -1,0 +1,201 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+}
+header
+{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    background-color: black;
+}
+header .container
+{
+    padding-top: 43px;
+    padding: 16px;
+    width: 70%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    position: relative;
+}
+.logo
+{
+    padding: 5px 30px;
+    margin-right: 30px;
+    font-size: 24px;
+    font-weight: 700;
+    color: white;
+}
+header .container nav
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 700px;
+    margin-right: 50px;
+}
+header .container nav ul
+{
+    display: flex;
+    width: 100%;
+    justify-content: flex-start;
+    
+    align-items: center;
+}
+header .container nav ul li{
+    display: flex;
+    font-size: 14px;
+    margin: 0px 5px;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+
+}
+
+.container nav ul li a
+{
+    padding: 10px 16px;
+    color: rgb(102, 98, 118);
+    text-decoration: none;
+    font-weight: 600;
+    color: #343232;
+    color: white;
+}
+nav ul li .submenu
+{
+    display: none;
+}
+nav ul li .submenu
+{
+    display: none;
+}
+.submenu li a
+{
+    padding: 10px 10px;
+    margin: 7px 5px;
+    width: 100%;
+}
+.submenu li a:hover
+{
+    color: #7169E5;
+}
+nav ul li:hover .submenu
+{
+    padding: 4px;
+    display: block;
+    position: absolute;
+    width: max-content;
+    z-index: 2;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    top: 100%;
+}
+.login
+{
+    position: absolute;
+    right: 0;
+    width: 160px;
+    font-size: 16px;
+    background-color: #7169E5;
+    font-weight: 700;
+    color: white;
+    height: 40px;
+    padding: 7px 16px;
+    outline: none;
+    border-radius: 7px;
+    box-shadow: rgba(253, 86, 49, 0.1) 0px 0.25rem 0.25rem 0.125rem, #7169E5 0px 0.375rem 0.75rem -0.125rem;
+    border: none;
+}
+.login:hover
+{
+    transition: .5s;
+    box-shadow: rgba(253, 86, 49, 0.1) 0px 0.25rem 0.25rem 0.125rem, #7169E5 0px 0.375rem 0.75rem -0.125rem;
+    box-shadow: none;
+    background-image: linear-gradient(45deg, #7169E5, #8f8bb6);
+}
+.login i
+{
+    margin: 5px;
+}
+/*###############################Main#############################*/
+main
+{
+    /*background-color: #332D6A;*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+    width: 100%;
+}
+main .container{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 80%;
+}
+
+main .container .texto
+{
+    width: 50%;
+    margin: 30px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.texto h2
+{
+    color: #7169E5;
+    font-size: 48px;
+}
+.texto h3
+{
+    font-size: 32px;
+    margin-bottom: 30px;
+    color: #fff;
+}
+.texto span
+{
+    margin-bottom: 20px;
+    font-size: 18px;
+    width: 600px;
+    text-align: justify;
+}
+
+
+
+main .container .tips
+{
+    margin: 0px 0px 20px 0px;
+    color: white;
+}
+
+main .container .tips li
+{
+    display: flex;
+    justify-content: flex-start;
+    padding: 9px 0px;
+    list-style: none;
+}
+
+.texto a
+{
+    background-color: #7169E5;
+    color: #fff;
+    padding: 12px 20px;
+    border-radius: 7px;
+    text-decoration: none;
+    font-weight: 600;
+    box-shadow: rgba(253, 86, 49, 0.1) 0px 0.25rem 0.25rem 0.125rem, #7169E5 0px 0.375rem 0.75rem -0.125rem;
+}
+/*###############################Main#############################*/
